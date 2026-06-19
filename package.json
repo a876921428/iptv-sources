@@ -12,7 +12,7 @@
     "build:static": "tsx src/index.ts",
     "postbuild:static": "npm run static",
     "m3u": "node ./dist/index.js",
-    "postm3u": "npm run static",
+    "postm3u": "",
     "static": "",
     "serve": "node ./dist/serve.js",
     "serve:dev": "nodemon ./dist/serve.js",
